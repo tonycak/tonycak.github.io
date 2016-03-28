@@ -41,3 +41,12 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.left {
+    background: url(../img/F0033P003302_W2_4709.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+}
