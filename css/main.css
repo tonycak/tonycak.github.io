@@ -42,7 +42,7 @@ ul.posts li {
     list-style: none;
 }
 
-.left {
+.image {
     background: url(../img/F0033P003302_W2_4709.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
