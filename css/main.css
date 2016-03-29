@@ -47,6 +47,7 @@ p {
 
 #main {
 	background-color:#fefefe;
+	padding-bottom: 30px;
 }
 
 @media (max-width:768px) {
