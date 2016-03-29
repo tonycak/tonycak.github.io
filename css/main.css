@@ -38,10 +38,11 @@ html, body {
     position: absolute;
     right: 0;
     top: 0;
-    background-image:url('../css/bg.jpg');
+    background:url('../css/bg.jpg') no-repeat fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
     background-size:contain;
-    background-attachment:fixed;
-	background-repeat: no-repeat;
 }
 
 h1 {
