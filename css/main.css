@@ -50,7 +50,7 @@ p {
 	padding-bottom: 50px;
 }
 
-@media (max-width:1055px) {
+@media (max-width:1100px) {
 	.box {
 		background:url('../css/bg-2.jpg') no-repeat left;
 		background-size:cover;
