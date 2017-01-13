@@ -78,17 +78,11 @@ a:hover {
 }
 
 
-@media (max-width:480px) {
-	.box {
-		background:url('../css/transamazon.gif') no-repeat left;
-		background-size:cover;
-		background-position:top;
-	}
-	#main {
-		padding:5px;
-		top:50px;
-	}
-
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  body {
+    background: #999;
+    width: 100%;
+  }
 }
 
 
