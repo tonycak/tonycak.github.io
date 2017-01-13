@@ -42,6 +42,7 @@ hr.small {
 }
 
 .section {
+	padding-top: 30px;
 	padding-bottom: 30px;
 }
 
@@ -82,9 +83,7 @@ a:hover {
 
 @media only screen and (max-width: 767px) {
   .intro {
-    /* The file size of this background image is 93% smaller
-       to improve page load speed on mobile internet connections */
-    background-image: url(images/background-photo-mobile-devices.jpg);
+    background-image: url('../css/transamazon.gif') center;
   }
 }
 
