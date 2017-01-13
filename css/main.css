@@ -1,3 +1,47 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+	background-color:#fefefe;
+}
+
+hr.small {
+    max-width: 750px;
+}
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.intro {
+    background:url('../css/transamazon.gif') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.intro h1 {
+	font-family: 'Lora', garamond,serif;
+	font-size: 5vw;
+	padding-left: 70px;
+	color:#fff;
+}
+
+.intro hr {
+	margin-left: 70px;
+	width:50%
+}
+
+.section {
+	padding-bottom: 30px;
+}
+
 a { 
 	text-decoration: none;
 	color:#000000;
@@ -10,38 +54,20 @@ a:hover {
 	border-bottom:1px solid black; 
 }
 
-html, body {
-	height: 100%;
-	background-color:#fefefe;
-}
 
-
-.box {
-  	bottom: 0;
-    left: 0;
-    right: 0;
-	position: fixed;
-    top: 0;
-    background:url('../css/transamazon.gif') no-repeat left;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size:contain;
-}
-
-h1 {
+.main h1 {
 	font-family:'Roboto',helvetica,sans-serif;
 	letter-spacing: 5px;
 	margin: 30px;
 }
 
-h4 {
+.main h4 {
 	font-family:'Roboto',helvetica,sans-serif;
 	letter-spacing: 5px;
 	margin: 30px;
 }
 
-p {
+.main p {
 	font-family: 'Lora', garamond,serif;
 	margin: 30px;
 }
@@ -60,7 +86,7 @@ p {
 	}
 	#main {
 		padding:5px;
-		top:300px;
+		top:50px;
 	}
 
 }
