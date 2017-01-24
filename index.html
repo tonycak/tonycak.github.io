@@ -1,42 +1,105 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-		<title>tonycak</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		
-	    <!-- Custom CSS -->
-	    <link href="css/main.css" rel="stylesheet">
-		
-		<link href='https://fonts.googleapis.com/css?family=Lora&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>tonycak</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/material-kit-modified.css" rel="stylesheet"/>
+
 </head>
 
-<body>
-    <div id="home" class="header">
-        <div class="intro">
-            	<h1><b>Anthony D. Cak, PhD</b></h1>
-				<hr>
-        </div>
-    </div>
+<body class="index-page">
 
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-lg-12 main" id="main">
-			<div id="experience" class="section">
-				<h4>Experience (selected)</h4>
+<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+	<div class="container">
+		<a class="navbar-brand" href="#home">Anthony D. Cak, PhD</a>
+        <div class="navbar-header">
+	    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
+	        	<span class="sr-only">Toggle navigation</span>
+	        	<span class="icon-bar"></span>
+	        	<span class="icon-bar"></span>
+	        	<span class="icon-bar"></span>
+	    	</button>
+	    </div>
+
+	    <div class="collapse navbar-collapse" id="navigation-index">
+	    	<ul class="nav navbar-nav navbar-right">
+				<li><a href="#experience" data-toggle="collapse" data-target="#navigation-index">Experience</a></li>
+				<li><a href="#education" data-toggle="collapse" data-target="#navigation-index">Education</a></li>
+				<li><a href="#publications" data-toggle="collapse" data-target="#navigation-index">Publications</a></li>
+				<li><a href="#music" data-toggle="collapse" data-target="#navigation-index">Music</a></li>
+	    	</ul>
+	    </div>
+	</div>
+</nav>
+
+<div class="wrapper">
+	<div class="header header-filter" style="background-image: url('assets/img/transamazon-sm.gif');">
+		<div id="home" class="col-md-8 col-md-offset-2">
+		</div>
+	</div>
+		<div class="container-fixed">
+        			<div class="main main-raised">
+						<div class="row">
+							<div class="col-md-12">
+                				<img src="assets/img/tony-sm.jpg" class="img-rounded img-responsive img-raised">
+							</div>
+						</div>
+					</div>
+		</div>
+    </div>
+	
+		<div class="space-20">
+		</div>
+
+	<div class="section section-basic">	
+		<div class="container">
+			<h2 class="text-center">Research scientist and administrator with interests and specialization in landscape ecology, stream and river ecology, geospatial technology, data visualizations, and science policy and communication.</h2>
+		</div>
+	</div>
+
+	<!--<div class="main">-->
+		<div class="section section-basic">
+			<div class="container">
+				<div id="experience" class="space-100">
+				</div>
+				<div class="title"><h2>Experience (selected)</h2>
+				</div>
+				<hr>
 				<p>Associate Director, Environmental Sciences Initiative, <a href="http://asrc.cuny.edu" target="_blank">CUNY Advanced Science Research Center</a> (current)</p>
 				<p>Program Analyst, Integrative Organismal Systems Division, <a href="http://www.nsf.gov/dir/index.jsp?org=BIO" target="_blank">Biological Sciences Directorate</a>, National Science Foundation (past)</p>
 				<p>Program Specialist, Emerging Frontiers Division, <a href="http://www.nsf.gov/dir/index.jsp?org=BIO" target="_blank">Biological Sciences Directorate</a>, National Science Foundation (past)</p>
 			</div>
-			<div id="education" class="section">
-				<h4>Education</h4>
+		</div>
+
+		<div class="section section-basic">
+			<div class="container">
+				<div id="education" class="space-100">
+				</div>
+				<div class="title"><h2>Education</h2></div>
+				<hr>
 				<p>Indiana University-Bloomington, PhD</p>
 				<p>University of Notre Dame, BS, MS</p>
 			</div>
-			<div id="publications" class="section">
-				<h4>Publications</h4>
+		</div>
+
+		<div class="section section-basic">
+			<div class="container">
+				<div id="publications" class="space-100">
+				</div>
+				<div class="title"><h2>Publications</h2></div>
+				<hr>
 				<p>Da Silva Júnior, R.D., Á.d.O. D’Antona, and <b>A.D. Cak</b>. 2016. Do uso e cobertura da terra à experiência etnográfica: Croquis e eimagnes de satélite na Amazônia rural brasileira. Etnográfica. 20(3): 583-606. DOI: <a href="http://dx.doi.org/10.4000/etnografica.4676" target="_blank">10.4000/etnografica.4676</a>.</p>
 				<p>Fekete, B.M., G. Kalene, and <b>A.D. Cak</b>. 2016. Energy footprint of urban services within building infrastructure. Journal of Solar Energy Engineering: Including Wind Energy and Building Energy Conservation. 139(1): 011006. DOI: <a href="http://dx.doi.org/10.1115/1.4035151" target="_blank">10.1115/1.4035151</a>.</p>
 				<p>Vörösmarty, C.J., V. Rodríguez Osuna, <b>A.D. Cak</b>, P. Green, Z. Tessler, A. Bhaduri, S. Bunn, J. Gastelumendi, I. Harrison, R. Lawford, P.J. Marcotullio, M. McClain, R. McDonald, P. McIntyre, M. Palmer, R. Robarts, A. Szöllösi-Nagy, and S. Uhlehbrook. 2016. Framing notes to the High Level Panel on Water: Water-related environmental services. Submitted to the United Nations High Level Panel on Water.</p>
@@ -50,12 +113,69 @@
 				<p>Chaloner, D.T., G.A. Lamberti, <b>A.D. Cak</b>, N.L. Blair, and R.T. Edwards. 2007. Inter-annual variation in the ecological effects of Pacific salmon spawners on an Alaskan stream. Freshwater Biology 52:478-490. DOI: <a href="http://dx.doi.org/10.1111/j.1365-2427.2006.01715.x" target="_blank">10.1111/j.1365-2427.2006.01715.x</a>.</p>
 				<p>D'Antona, A.d.O., L.K. VanWey, and <b>A.D. Cak</b>. 2007. Efeitos da escala da análise em estudos de mudança da cobertura da terra entre Santarém e Altamira, no Pará, Brasil. Pages 87-114 in D. Hogan, editor. <a href="http://www.unfpa.org.br/Arquivos/livro_dinamica.pdf" target="_blank">Dinâmica Populacional e Mudança Ambiental: Cenários para o Desenvolvimento Brasileiro</a>. NEPO, Unicamp, Campinas, SP, Brazil.</p>
 			</div>
-			<div id="music" class="section">
-				<h4>Music, remix</h4>
+		</div>
+
+		<div class="space-100">
+		</div>
+		
+		<div class="section section-basic">
+			<div class="container">
+				<div id="music" class="space-100">
+				</div>
+				<div class="title"><h2>Music, remix</h2>
+				</div>
+				<hr>
 				<p>Whodat. 2013. The Recovery EP. A2 - Shut Up and Dance (Tony Cak Derivative). <a href="https://www.discogs.com/Whodat-The-Recovery-EP/release/4392760" target="_blank">Uzuri 019</a>, Uzuri Recordings, London, UK.</p>
 			</div>
 		</div>
+				
+	<div class="space-100">
 	</div>
-
 </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+				<div class="space-100">
+				</div>
+                <div class="col-lg-12 text-center"><p></p></div>
+            </div>
+        </div>
+		<div class="space-100">
+		</div>
+		<div class="container">
+			<div class="col-log-12 text-center"><p class="text-muted">Design by Anthony D. Cak, adapted from Material Design theme by <a href="http://www.creative-tim.com" target="_blank">Creative-Tim</a>.</p>
+		</div>
+	</footer>
 </body>
+	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/js/material.min.js"></script>
+
+	<script src="assets/js/material-kit.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		$().ready(function(){
+			materialKit.initSliders();
+            window_width = $(window).width();
+
+            if (window_width >= 992){
+                big_image = $('.wrapper > .header');
+
+				$(window).on('scroll', materialKitDemo.checkScrollForParallax);
+			}
+
+		});
+	</script>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-90862712-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</html>
