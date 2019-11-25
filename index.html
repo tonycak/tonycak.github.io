@@ -1,187 +1,297 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-	<meta charset="utf-8" />
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-	<link rel="icon" type="image/png" href="assets/img/favicon.png">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-
-	<title>Anthony D. Cak, PhD</title>
-
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-	
-	<meta name="description" content="Anthony D. Cak, PhD" />
-	<meta name="robots" content="index,follow" />
-
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300&amp;subset=latin-ext" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/material-kit-modified.css" rel="stylesheet"/>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>	
+<title>
+Anthony D. Cak, PhD
+</title>
 </head>
+<style>
+body { 
+  font-family: 'Courier New', sans-serif;
+  color: #303030;
+  background-color: #F5F5F5;
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 0rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 1rem;
+}
 
-<body class="index-page">
+hr {
+    border: 0;
+    height: 1px;
+    background: gray;
+}
 
-<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
-	<div class="container">
-		<a class="navbar-brand" href="#home">Anthony D. Cak, PhD</a>
-        <div class="navbar-header">
-	    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
-	        	<span class="sr-only">Toggle navigation</span>
-	        	<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span>
-	    	</button>
-	    </div>
+.container {
+  display: table;
+  width: 100%;
+  height: auto;
+}
 
-	    <div class="collapse navbar-collapse" id="navigation-index">
-	    	<ul class="nav navbar-nav navbar-right">
-				<li><a href="#experience" data-toggle="collapse" data-target="#navigation-index">Experience</a></li>
-				<li><a href="#education" data-toggle="collapse" data-target="#navigation-index">Education</a></li>
-				<li><a href="#publications" data-toggle="collapse" data-target="#navigation-index">Publications</a></li>
-				<li><a href="#music" data-toggle="collapse" data-target="#navigation-index">Music</a></li>
-	    	</ul>
-	    </div>
-	</div>
-</nav>
+div {
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding-top: 0rem;;
+  padding-bottom: 0.1rem;
+}
 
-<div class="wrapper">
-	<div class="header header-filter" style="background-image: url('assets/img/transamazon-sm.gif');">
-		<div id="home" class="col-md-8 col-md-offset-2">
-		</div>
-	</div>
-		<div class="container-fixed">
-        			<div class="main main-raised">
-						<div class="row">
-							<div class="col-md-12">
-                				<img src="assets/img/tony-sm.jpg" class="img-rounded img-responsive img-raised">
-							</div>
-						</div>
-					</div>
-		</div>
-    </div>
-	
-		<div class="space-20">
-		</div>
+btn {
+  display: table;
+  padding-top: 1.3rem;;
+  padding-bottom: 1.3rem;
+}
 
-	<div class="section section-basic">	
-		<div class="container">
-			<h2 class="text-center">Research scientist and administrator with interests and specialization in landscape ecology, stream and river ecology, geospatial technology, data visualizations, and science policy and communication.</h2>
-		</div>
-	</div>
+sup { 
+    vertical-align: super;
+    font-size: 0.7em;
+    padding-left: 0.1em;
+}
 
-	<!--<div class="main">-->
-		<div class="section section-basic">
-			<div class="container">
-				<div id="experience" class="space-100">
-				</div>
-				<div class="title"><h2>Experience (selected)</h2>
-				</div>
-				<hr>
-				<p>Associate Director, Environmental Sciences Initiative, <a href="http://asrc.cuny.edu" target="_blank">Advanced Science Research Center at The Graduate Center, CUNY</a> (current)</p>
-				<p>Program Analyst, Integrative Organismal Systems Division, <a href="http://www.nsf.gov/dir/index.jsp?org=BIO" target="_blank">Biological Sciences Directorate</a>, National Science Foundation (past)</p>
-				<p>Program Specialist, Emerging Frontiers Division, <a href="http://www.nsf.gov/dir/index.jsp?org=BIO" target="_blank">Biological Sciences Directorate</a>, National Science Foundation (past)</p>
-			</div>
-		</div>
+u {
+    color: #606060;
+    text-decoration: none;
+    border-bottom: 1px dotted #606060;
+}
+a img {
+width: 0px;
+height: auto;
+border-width: 2px;
+}
 
-		<div class="section section-basic">
-			<div class="container">
-				<div id="education" class="space-100">
-				</div>
-				<div class="title"><h2>Education</h2></div>
-				<hr>
-				<p>Indiana University-Bloomington, PhD</p>
-				<p>University of Notre Dame, BS, MS</p>
-			</div>
-		</div>
+a {
+    color: #2f5e8d;
+    text-decoration: none;
+    border-bottom: 1px dotted #2f5e8d;
+    transition: color 0.1s linear;
+    -webkit-transition: color 0.1s linear;
+    -moz-transition: color 0.1s linear;
+}
 
-		<div class="section section-basic">
-			<div class="container">
-				<div id="publications" class="space-100">
-				</div>
-				<div class="title"><h2>Publications</h2></div>
-				<hr>
-				
-				<p>Bell, A., J. Caviglia-Harris, and <b>A. Cak</b>. 2015. Characterizing land-use change over space and time: Applying principal components analysis in the Brazilian Legal Amazon. Journal of Land Use Science 10(1):19-37. DOI: <a href="http://dx.doi.org/10.1080/1747423X.2013.832427" target="_blank">10.1080/1747423X.2013.832427</a>. (first published online in 2013)</p>
-				<p> Brondizio, E.S., <b>A.D. Cak</b>, M. Caldas, C. Mena, R. Bilsborrow, C. T. Futemma, E. F. Moran, M. Batistella, and T. Ludewigs. 2009. Deforestation and Small Holders in Amazônia. Pages 117-143 in M. Keller, M. Bustamante, J. Gash, and P. Dias (eds.), Amazonia Change: A Synthesis of LBA Research. World Scientific Publishing (American Geophysical Union, Geophysical Monograph Series 186). DOI: <a href="http://dx.doi.org/10.1029/GM186" target="_blank">10.1029/GM186</a>.</p>
-				<p><b>Cak, A.D.</b> 2011. Appendix E. Analysis of committee of visitor (COV) reports to identify trends in merit review criteria. Pages 251-257 in National Science Board (authors). <a href="http://www.nsf.gov/nsb/publications/2011/meritreviewcriteria.pdf" target="_blank">National Science Foundation’s Merit Review Criteria: Review and Revisions</a>, December 14. National Science Foundation, Arlington, VA.</p>
-				<p><b>Cak, A.D.</b>, D.T. Chaloner, and G.A. Lamberti. 2008. Effects of spawning salmon on dissolved nutrients and epilithon in coupled stream-estuary systems of southeastern Alaska. Aquatic Sciences 70:169-178. DOI: <a href="http://dx.doi.org/10.1007/s00027-008-8090-5" target="_blank">10.1007/s00027-008-8090-5</a>.</p>
-				<p><b>Cak, A.D.</b>, E.F. Moran, R. de O. Figueiredo, D. Lu, G. Li, and S. Hetrick. 2016. Urbanization and small household agricultural land use choices in the Brazilian Amazon and the role for the water chemistry of small streams. Journal of Land Use Science 11(2): 203-211. DOI: <a href="http://dx.doi.org/10.1080/1747423X.2015.1047909" target="_blank">10.1080/1747423X.2015.1047909</a>. (first published online in 2015)</p>		
-				<p>Chaloner, D.T., G.A. Lamberti, <b>A.D. Cak</b>, N.L. Blair, and R.T. Edwards. 2007. Inter-annual variation in the ecological effects of Pacific salmon spawners on an Alaskan stream. Freshwater Biology 52:478-490. DOI: <a href="http://dx.doi.org/10.1111/j.1365-2427.2006.01715.x" target="_blank">10.1111/j.1365-2427.2006.01715.x</a>.</p>
-				<p>D'Antona, A.d.O., <b>A.D. Cak</b>, and T. Tartalha. 2008. Integrando desenhos e imagens de satélite no estudo de mudanças no uso e cobertura da terra. Ambiente e Sociedade XI(1):99-116. DOI: <a href="http://dx.doi.org/10.1590/S1414-753X2008000100008" target="_blank">10.1590/S1414-753X2008000100008</a>.</p>
-				<p>D'Antona, A.d.O., <b>A.D. Cak</b>, and L.K. VanWey. 2008. Collecting sketch maps to understand property land use and land cover in large surveys. Field Methods 20:66-84. DOI: <a href="http://dx.doi.org/10.1177%2F1525822X07309354" target="_blank">10.1177/1525822X07309354</a>.</p>
-				<p>D'Antona, A.d.O., L.K. VanWey, and <b>A.D. Cak</b>. 2007. Efeitos da escala da análise em estudos de mudança da cobertura da terra entre Santarém e Altamira, no Pará, Brasil. Pages 87-114 in D. Hogan, editor. <a href="http://www.unfpa.org.br/Arquivos/livro_dinamica.pdf" target="_blank">Dinâmica Populacional e Mudança Ambiental: Cenários para o Desenvolvimento Brasileiro</a>. NEPO, Unicamp, Campinas, SP, Brazil.</p>
-				<p>Da Silva Júnior, R.D., Á.d.O. D’Antona, and <b>A.D. Cak</b>. 2016. Do uso e cobertura da terra à experiência etnográfica: Croquis e eimagnes de satélite na Amazônia rural brasileira. Etnográfica. 20(3): 583-606. DOI: <a href="http://dx.doi.org/10.4000/etnografica.4676" target="_blank">10.4000/etnografica.4676</a>.</p>
-				<p>Fekete, B.M., G. Kalene, and <b>A.D. Cak</b>. 2016. Energy footprint of urban services within building infrastructure. Journal of Solar Energy Engineering: Including Wind Energy and Building Energy Conservation. 139(1): 011006. DOI: <a href="http://dx.doi.org/10.1115/1.4035151" target="_blank">10.1115/1.4035151</a>.</p>
-				<p>Vörösmarty, C.J., V. Rodríguez Osuna, <b>A.D. Cak</b>, P. Green, Z. Tessler, A. Bhaduri, S. Bunn, J. Gastelumendi, I. Harrison, R. Lawford, P.J. Marcotullio, M. McClain, R. McDonald, M. Palmer, R. Robarts, A. Szöllösi-Nagy, and S. Uhlenbrook. 2016. Framing notes to the High Level Panel on Water: Water-related environmental services. Submitted to the United Nations High Level Panel on Water.</p>
-				<p>Vörösmarty, C.J., V. Rodríguez Osuna, D.A. Koehler, P. Klop, J.D. Spengler, J.J. Buonocore, <b>A.D. Cak</b>, Z.D. Tessler, F. Corsi, P.A. Green, and R. Sánchez. 2018. Scientifically assess impacts of sustainable investments. Science 359(6375): 523-525. DOI: <a href="http://science.sciencemag.org/content/359/6375/523/" target="_blank">, 10.1126/science.aao3895</a>.</p>
-			</div>
-		</div>
+a:visited {
+    color: #2f5e8d;
+}
 
-		<div class="space-100">
-		</div>
-		
-		<div class="section section-basic">
-			<div class="container">
-				<div id="music" class="space-100">
-				</div>
-				<div class="title"><h2>Music, remix</h2>
-				</div>
-				<hr>
-				<p>Whodat. 2013. The Recovery EP. A2 - Shut Up and Dance (Tony Cak Derivative). <a href="https://www.discogs.com/Whodat-The-Recovery-EP/release/4392760" target="_blank">Uzuri 019</a>, Uzuri Recordings, London, UK.</p>
-			</div>
-		</div>
-				
-	<div class="space-100">
-	</div>
-</div>
+a:hover {
+    color: #000000;
+    border-bottom-color: #000000;
+}
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-				<div class="space-100">
-				</div>
-                <div class="col-lg-12 text-center"><p></p></div>
-            </div>
-        </div>
-		<div class="space-100">
-		</div>
-		<div class="container">
-			<div class="col-log-12 text-center"><p class="text-muted">Design by Anthony D. Cak, adapted from Material Design theme by <a href="http://www.creative-tim.com" target="_blank">Creative-Tim</a>.</p>
-		</div>
-	</footer>
+a:active {
+    color: black;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.topic {
+  font-weight: 600;
+  line-height: 1;
+  padding-top: 0.1rem;
+}
+
+.stuff {
+  padding-bottom: 1.3rem;
+}
+
+@media only screen and (max-width: 800px) {
+    
+body { 
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 0rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: gray;
+}
+
+.container {
+  display: table;
+  width: 100%;
+  height: auto;
+}
+
+div {
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding-top: 0.2rem;;
+  padding-bottom: 0.2rem;
+}
+
+btn {
+  display: table;
+  padding-top: 1.3rem;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+sup { 
+    vertical-align: super;
+    font-size: 0.7em;
+    padding-left: 0.1em;
+}
+
+.topic {
+  font-weight: 600;
+  line-height: 1;
+  padding-top: 0.1rem;
+}
+
+.stuff {
+  padding-bottom: 1.3rem;
+}
+</style>
+</head>
+<body>
+<section class="container">
+  <div class="topic">
+    <article>
+      <p>Anthony D. Cak, PhD</p>
+    </article>
+  </div>
+  <div class="stuff">
+    <article>
+    <br>
+      <img src="assets/img/tonyart.jpg" style="width:150px;height:150px;">
+    </article>
+  </div>
+</section>
+<section class="container">
+  <div class="topic">
+    <article>
+      <p></p>
+    </article>
+  </div>
+  <div class="stuff">
+    <article>
+      <p>Research scientist and administrator with interests and specialization in landscape ecology, stream and river ecology, geospatial technology, data visualizations, and science policy and communication.
+    </article>
+  </div>
+</section>
+<hr>
+<section class="container">
+  <div class="topic">
+    <article>
+      <p>Contact</p>
+    </article>
+  </div>
+  <div class="stuff">
+    <article>
+      <p>acak [at] gc [dot] cuny [dot] edu
+    </article>
+  </div>
+</section>
+<hr>
+<section class="container">
+  <div class="topic">
+    <article>
+      <p>Experience (selected)</p>
+    </article>
+  </div>
+  <div class="stuff">
+    <article>
+      <p>Associate Director
+      <br><a href="https://asrc.gc.cuny.edu/environment" target="_blank">Environmental Sciences Initiative</a><br><a href="https://asrc.gc.cuny.edu" target="_blank">Advanced Science Research Center</a><br>The Graduate Center, CUNY (current)</p>
+      <p>Program Analyst<br>Integrative Organismal Systems Division<br><a href="http://www.nsf.gov/dir/index.jsp?org=BIO" target="_blank">Biological Sciences Directorate</a><br>National Science Foundation (past)</p>
+      <p>Program Specialist<br>Emerging Frontiers Division<br><a href="http://www.nsf.gov/dir/index.jsp?org=BIO" target="_blank">Biological Sciences Directorate</a><br>National Science Foundation (past)</p>
+    </article>
+  </div>
+</section>
+<hr>
+<section class="container">
+  <div class="topic">
+    <article>
+      <p>Education</p>
+    </article>
+  </div>
+  <div class="stuff">
+    <article>
+      <p>Indiana University-Bloomington, PhD</p>
+      <p>University of Notre Dame, BS, MS</p>
+    </article>
+  </div>
+</section>
+<hr>
+<section class="container">
+  <div class="topic">
+    <article>
+      <p>Publications</p>
+    </article>
+  </div>
+  <div class="stuff">
+    <article>
+      <p>Bell, A., J. Caviglia-Harris, and <u>A. Cak</u>. 2015. <b><a href="http://dx.doi.org/10.1080/1747423X.2013.832427" target="_blank">Characterizing land-use change over space and time: Applying principal components analysis in the Brazilian Legal Amazon</a></b>. Journal of Land Use Science 10(1):19-37. DOI: 10.1080/1747423X.2013.832427. (first published online in 2013)</p>
+      <p> Brondizio, E.S., <u>A.D. Cak</u>, M. Caldas, C. Mena, R. Bilsborrow, C. T. Futemma, E. F. Moran, M. Batistella, and T. Ludewigs. 2009. <b><a href="http://dx.doi.org/10.1029/GM186" target="_blank">Deforestation and Small Holders in Amazônia</a></b>. Pages 117-143 in M. Keller, M. Bustamante, J. Gash, and P. Dias (eds.), Amazonia Change: A Synthesis of LBA Research. World Scientific Publishing (American Geophysical Union, Geophysical Monograph Series 186). DOI: 10.1029/GM186.</p>
+      <p><u>Cak, A.D.</u> 2011. <b><a href="http://www.nsf.gov/nsb/publications/2011/meritreviewcriteria.pdf" target="_blank">Appendix E. Analysis of committee of visitor (COV) reports to identify trends in merit review criteria</a></b>. Pages 251-257 in National Science Board (authors). National Science Foundation’s Merit Review Criteria: Review and Revisions, December 14. National Science Foundation, Arlington, VA.</p>
+      <p><u>Cak, A.D.</u>, D.T. Chaloner, and G.A. Lamberti. 2008. <b><a href="http://dx.doi.org/10.1007/s00027-008-8090-5" target="_blank">Effects of spawning salmon on dissolved nutrients and epilithon in coupled stream-estuary systems of southeastern Alaska</a></b>. Aquatic Sciences 70:169-178. DOI: 10.1007/s00027-008-8090-5.</p>
+      <p><u>Cak, A.D.</u>, E.F. Moran, R. de O. Figueiredo, D. Lu, G. Li, and S. Hetrick. 2016. <b><a href="http://dx.doi.org/10.1080/1747423X.2015.1047909" target="_blank">Urbanization and small household agricultural land use choices in the Brazilian Amazon and the role for the water chemistry of small streams</a></b>. Journal of Land Use Science 11(2): 203-211. DOI: 10.1080/1747423X.2015.1047909. (first published online in 2015)</p>
+      <p>Chaloner, D.T., G.A. Lamberti, <u>A.D. Cak</u>, N.L. Blair, and R.T. Edwards. 2007. <b><a href="http://dx.doi.org/10.1111/j.1365-2427.2006.01715.x" target="_blank">Inter-annual variation in the ecological effects of Pacific salmon spawners on an Alaskan stream</a></b>. Freshwater Biology 52:478-490. DOI: 10.1111/j.1365-2427.2006.01715.x.</p>
+      <p>D'Antona, A.d.O., <u>A.D. Cak</u>, and T. Tartalha. 2008. <b><a href="http://dx.doi.org/10.1590/S1414-753X2008000100008" target="_blank">Integrando desenhos e imagens de satélite no estudo de mudanças no uso e cobertura da terra</a></b>. Ambiente e Sociedade XI(1):99-116. DOI: 10.1590/S1414-753X2008000100008.</p>
+      <p>D'Antona, A.d.O., <u>A.D. Cak</u>, and L.K. VanWey. 2008. <b><a href="http://dx.doi.org/10.1177%2F1525822X07309354" target="_blank">Collecting sketch maps to understand property land use and land cover in large surveys</a></b>. Field Methods 20:66-84. DOI: 10.1177/1525822X07309354.</p>
+      <p>D'Antona, A.d.O., L.K. VanWey, and <u>A.D. Cak</u>. 2007. <b><a href="http://www.unfpa.org.br/Arquivos/livro_dinamica.pdf" target="_blank">Efeitos da escala da análise em estudos de mudança da cobertura da terra entre Santarém e Altamira, no Pará, Brasil</a></b>. Pages 87-114 in D. Hogan, editor. Dinâmica Populacional e Mudança Ambiental: Cenários para o Desenvolvimento Brasileiro. NEPO, Unicamp, Campinas, SP, Brazil.</p>
+      <p>Da Silva Júnior, R.D., Á.d.O. D’Antona, and <u>A.D. Cak</u>. 2016. <b><a href="http://dx.doi.org/10.4000/etnografica.4676" target="_blank">Do uso e cobertura da terra à experiência etnográfica: Croquis e eimagnes de satélite na Amazônia rural brasileira</a></b>. Etnográfica. 20(3): 583-606. DOI: 10.4000/etnografica.4676.</p>
+      <p>Fekete, B.M., G. Kalene, and <u>A.D. Cak</u>. 2016. <b><a href="http://dx.doi.org/10.1115/1.4035151" target="_blank">Energy footprint of urban services within building infrastructure</a></b>. Journal of Solar Energy Engineering: Including Wind Energy and Building Energy Conservation. 139(1): 011006. DOI: 10.1115/1.4035151.</p>
+      <p>Felizzola, J.F., <u>A.D. Cak</u>, R.d.O. Figueiredo, and M.d.O. Lima. 2019. <b><a href="http://www.ambi-agua.net/seer/index.php/ambi-agua/article/view/2163/pdf" target="_blank">Metals and dissolved organic carbon (DOC) of surface waters in two adjacent watersheds in the eastern Amazon</a></b>. Ambiente & Água. DOI: 10.4136ambi-agua.2377.
+      <p>Vörösmarty, C.J., V. Rodríguez Osuna, <u>A.D. Cak</u>, A. Bhaduri, S.E. Bunn, F. Corsi, J. Gastelumendi, P. Green, I. Harrison, R. Lawford, P.J. Marcotullio, M. McClain, R. McDonald, M. Palmer, R. Robarts, A. Szöllösi-Nagy, Z. Tessler, and S. Uhlenbrook. 2018. <b><a href="https://doi.org/10.1016/j.ecohyd.2018.07.004" target="_blank">Ecosystem-based water security and the sustainable development goals</a></b>. Ecohydrology & Hydrobiology. 18: 317-333. DOI: 10.1016/j.ecohyd.2018.07.004.
+      <p>Vörösmarty, C.J., V. Rodríguez Osuna, <u>A.D. Cak</u>, P. Green, Z. Tessler, A. Bhaduri, S. Bunn, J. Gastelumendi, I. Harrison, R. Lawford, P.J. Marcotullio, M. McClain, R. McDonald, M. Palmer, R. Robarts, A. Szöllösi-Nagy, and S. Uhlenbrook. 2016. <b><font color=#2f5e8d>Framing notes to the High Level Panel on Water: Water-related environmental services</font></b>. Submitted to the <a href="https://www.unwater.org/high-level-panel-on-water-outcome-document/" target="_blank">United Nations High Level Panel on Water</a>.</p>
+      <p>Vörösmarty, C.J., V. Rodríguez Osuna, D.A. Koehler, P. Klop, J.D. Spengler, J.J. Buonocore, <u>A.D. Cak</u>, Z.D. Tessler, F. Corsi, P.A. Green, and R. Sánchez. 2018. <b><a href="http://science.sciencemag.org/content/359/6375/523/" target="_blank">Scientifically assess impacts of sustainable investments</a></b>. Science 359(6375): 523-525. DOI: , 10.1126/science.aao3895.</p>
+    </article>
+  </div>
+</section>
+<hr>
+<section class="container">
+  <div class="topic">
+    <article>
+      <p>Conference presentations (selected)</p>
+    </article>
+  </div>
+  <div class="stuff">
+    <article>
+      <p><u>Cak, A.D.</u> 2017. <b><a href="https://agu.confex.com/agu/fm17/meetingapp.cgi/Paper/260221" target="_blank">Catalyzing cross-disciplinary research and education within and beyond the environmental and geosciences to address emerging, societally-relevant issues</a></b>. Presented at the 2017 AGU Annual Meeting, New Orleans, LA.</p>
+      <p><u>Cak, A.D.</u> 2017. <b><a href="https://agu.confex.com/agu/fm17/meetingapp.cgi/Paper/277097" target="_blank">Characterizing temporal and spatial changes in land surface temperature across the Amazon Basin using thermal and infrared satellite data</a></b>. Presented at the 2017 AGU Annual Meeting, New Orleans, LA.</p>
+      <p><u>Cak, A.D.</u>, and D.L Hocker. 2018. <b><a href="https://agu.confex.com/agu/fm18/meetingapp.cgi/Paper/415826" target="_blank">Capturing land use and land cover change across the Amazon Basin using convolutional neural networks (CNNs)</a></b>. Presented at the 2018 AGU Annual Meeting, Washington, DC.</p>
+      <p>Heerspink, B.P., N. Haghtalab, <u>A.D. Cak</u>, A.D. Kendall, N.J. Moore, and D.W. Hyndman. 2018. <b><a href="https://agu.confex.com/agu/fm18/meetingapp.cgi/Paper/450961" target="_blank">Investigating the effects of hydropower development, deforestation, and climate change on the hydrology of rivers in the Brazilian Amazon</a></b>. Presented at the 2018 AGU Annual Meeting, Washington, DC.</p>
+      <p>Rodriguez Osuna, V., C.J. Vörösmarty, D. Koehler, P. Klop, J. Spengler, J. Buonocore, <u>A.D. Cak</u>, Z.D. Tessler, F. Corsi, and P.A. Green. 2017. <b><a href="https://agu.confex.com/agu/fm17/meetingapp.cgi/Paper/274910" target="_blank">Science shaping sustainable finance</a></b>. Presented at the 2017 AGU Annual Meeting, New Orleans, LA.</p>
+      <p>Rosenzweig, B. and <u>A.D. Cak</u>. 2017. <b><a href="https://agu.confex.com/agu/fm17/meetingapp.cgi/Paper/293843" target="_blank">Teaching climate change through data analytics: Updates on the TRELLIS project at the City University of New York</a></b>. Presented at the 2017 AGU Annual Meeting, New Orleans, LA.</p>
+      <p>Vörösmarty, C.J., P.A. Green, <u>A.D. Cak</u>, Z.D. Tessler, V. Rodriguez Osuna, and F. Corsi. 2018. <b><a href="https://agu.confex.com/agu/fm18/meetingapp.cgi/Paper/445819" target="_blank">Engaging business into the SDG process through opportunity mapping for sustainable impact investing: The role of Earth Science.</a></b>. Presented at the 2018 AGU Annual Meeting, Washington, DC.</p>
+      <p>Vörösmarty, C.J., P.A. Green, V. Rodriguez Osuna, <u>A.D. Cak</u>, A. Bhaduri, S. Bunn, and B. Stewart-Koster. 2018. <b><a href="https://agu.confex.com/agu/fm18/meetingapp.cgi/Paper/446816" target="_blank">Sustaining human water use in the 21st century hydrosystem: Assessing the roles of traditional engineering and natural capital</a></b>. Presented at the 2018 AGU Annual Meeting, Washington, DC.</p>
+    </article>
+  </div>
+</section>
+<hr>
+<section class="container">
+  <div class="topic">
+    <article>
+      <p>Music, remix</p>
+    </article>
+  </div>
+  <div class="stuff">
+    <article>
+      <p>Whodat. 2013. <b><a href="https://www.discogs.com/Whodat-The-Recovery-EP/release/4392760" target="_blank">The Recovery EP. A2 - Shut Up and Dance (Tony Cak Derivative)</a></b>. Uzuri 019, Uzuri Recordings, London, UK.</p>
+    </article>
+  </div>
+</section>
 </body>
-	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
-	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="assets/js/material.min.js"></script>
-
-	<script src="assets/js/material-kit.js" type="text/javascript"></script>
-
-	<script type="text/javascript">
-		$().ready(function(){
-			materialKit.initSliders();
-            window_width = $(window).width();
-
-            if (window_width >= 992){
-                big_image = $('.wrapper > .header');
-
-				$(window).on('scroll', materialKitDemo.checkScrollForParallax);
-			}
-
-		});
-	</script>
-	
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-90862712-1', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
 </html>
